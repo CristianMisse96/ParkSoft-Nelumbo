@@ -18,12 +18,14 @@ Repositorio que contiene el desarrollo Backend de prueba técnica para ingreso a
 1.  Clonar el proyecto **git clone**
 2.  Ejecutar los scripts SQL que se encuntran [Comandos SQL Proyecto](https://github.com/CristianMisse96/ParkSoft-Nelumbo/tree/main/parksoft_db).
 3.  Ejecutar el proyecto localmente vía Maven
+    - Cambiar el string, username y password de la conexión a la Bd en el application.properties del proyecto por las credenciales de su conexión a MySQL local.
     - En la carpeta raíz del proyecto ejecutar el comando **mvnw install**
     - Seguido ejecutar en la carpeta raíz del proyecto el comando **mvnw spring-boot:run**
       
     Ejecutar el proyecto localmete vía IDE
     - En su IDE de preferencia abrir el proyecto.
     - Instalar las dependencias necesarias.
+    - Cambiar el string, username y password de la conexión a la Bd en el application.properties del proyecto por las credenciales de su conexión a MySQL local.
     - Ubicar la clase principal del proyecto y ⏯️ejecutar  
     
 ## Estado proyecto
