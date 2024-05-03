@@ -1,31 +1,48 @@
-# ParkSoft-Nelumbo
-Repositorio que contiene el desarrollo prueba técnica de ingreso a empresa Nelumbo.
+# ParkSoft-Nelumbo-Backend
+Repositorio que contiene el desarrollo Backend de prueba técnica para ingreso a empresa Nelumbo.
 
 ## Tabla de Contenidos
 - [Instalación](#instalación)
+- [Estado de Proyecto](#estado-proyecto)
 - [Uso](#uso)
-- [Contribución](#contribución)
-- [Licencia](#licencia)
 - [Contacto](#contacto)
 
 ## Instalación
 
-Describe los pasos necesarios para instalar y configurar tu proyecto. Esto puede incluir la instalación de dependencias, configuración de variables de entorno, etc.
+### Instalaciones necesarias
+1. Instalar MySQL
+2. Instalar JDK 17
+3. Instalar Maven
+
+### Pasos para ejecutar el proyecto localmente
+1.  Clonar el proyecto **git clone**
+2.  Ejecutar los scripts SQL que se encuntran [Comandos SQL Proyecto](https://github.com/CristianMisse96/ParkSoft-Nelumbo/tree/main/parksoft_db).
+3.  Ejecutar el proyecto localmente vía Maven
+    - En la carpeta raíz del proyecto ejecutar el comando **mvnw install**
+    - Seguido ejecutar en la carpeta raíz del proyecto el comando **mvnw spring-boot:run**
+      
+    Ejecutar el proyecto localmete vía IDE
+    - En su IDE de preferencia abrir el proyecto.
+    - Instalar las dependencias necesarias.
+    - Ubicar la clase principal del proyecto y ⏯️ejecutar  
+    
+## Estado proyecto
+:construction: Proyecto en construcción :construction:
 
 ## Uso
 
-Explica cómo usar tu proyecto. Proporciona ejemplos de código si es necesario y describe las funcionalidades principales.
+Descubre cómo utilizar nuestro proyecto a través de nuestra completa documentación en Postman. Explora ejemplos de código, ejecute solicitudes y familiarízate con todas las funcionalidades principales.
 
-[<i class="fas fa-external-link-alt"></i> Documentación de Postman](https://documenter.getpostman.com/view/25296931/2sA3JFBjdL)
-
-## Contribución
-
-Indica cómo otros desarrolladores pueden contribuir a tu proyecto. Esto puede incluir instrucciones para enviar solicitudes de extracción, pautas de estilo de código, etc.
-
-## Licencia
-
-Indica la licencia bajo la cual se distribuye tu proyecto. Asegúrate de elegir una licencia que se ajuste a tus necesidades y objetivos.
+🔗[**¡Haz clic aquí para acceder a la documentación de Postman!**](https://documenter.getpostman.com/view/25296931/2sA3JFBjdL)
 
 ## Contacto
 
-Proporciona información de contacto para que otros desarrolladores puedan comunicarse contigo si tienen preguntas o comentarios sobre el proyecto.
+¡Me encantaría escucharte! Si tienes alguna pregunta, comentario o sugerencia sobre esté proyecto, no dudes en ponerte en contacto.
+
+* Correo Electrónico:  cgmisse@gmail.com📧
+* LinkedIn: [Cristian Misse Colmenares](https://www.linkedin.com/in/cgmisse/)&#128100;
+* GitHub: https://github.com/CristianMisse96🔗
+  
+También puedes abrir un problema (issue) en nuestro repositorio si encuentras algún error o tienes una solicitud de función. ¡Esperamos con interés tu contribución!
+
+
